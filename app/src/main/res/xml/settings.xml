@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Özellikler">
+        <EditTextPreference
+            android:key="ip"
+            android:defaultValue="192.168.xxx.xxx"
+            android:summary="@string/ip"
+            android:title="@string/ipaddress" />
+        <EditTextPreference
+            android:key="port"
+            android:defaultValue="8080"
+            android:summary="@string/port"
+            android:title="Port" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Yardım">
+        <Preference
+            android:key="Test"
+            android:title="Örnek ip ve port"
+            android:summary="@string/exampleIP_PORT"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Versiyon">
+
+        <Preference
+            android:key="Versiyon"
+            android:title="Versiyon"
+            android:summary="1.0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Geliştiriciler">
+
+        <Preference
+            android:key="Geliştirenler"
+            android:title="Geliştiriciler"
+            android:summary="@string/gelistirici" />
+    </PreferenceCategory>
+</PreferenceScreen>

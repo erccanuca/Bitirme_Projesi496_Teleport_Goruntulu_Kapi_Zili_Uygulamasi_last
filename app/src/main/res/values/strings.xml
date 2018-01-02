@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">RaspberryPI App</string>
+    <string name="welcome_to_rpi_app">HOŞ GELDİNİZ!</string>
+    <string name="explain">Bu uygulama, teleport görüntülü kapı zili uygulamasıdır.Lütfen raspberry piye bağlanmak için Başlaya basın!</string>
+    <string name="connect">Başla</string>
+    <string name="exit">çıkış</string>
+    <string name="connection_label">Bağlantı Diyaloğu</string>
+    <string name="ip">192.168.43.214</string>
+    <string name="port">5001</string>
+    <string name="press_to_connect">Bağlan</string>
+    <string name="connection">Bağlantı</string>
+    <string name="exit_connection_label">Exit to this connection label</string>
+    <string name="connection_result_success">Bağlantı Başarılı!</string>
+    <string name="connection_result_fail">Bağlantı Hatası</string>
+    <string name="ok">Tamam</string>
+    <string name="retry_to_connect">Yeniden Deneyiniz!</string>
+    <string name="server">server</string>
+    <string name="user">user</string>
+    <string name="password">password</string>
+    <string name="back">Geri</string>
+    <string name="view">Raspberry Pi Kontrol noktasına hoş geldiniz!</string>
+    <string name="view_camera">Görüntüle</string>
+    <string name="lock">Kiliti kapat</string>
+    <string name="unlock">Kiliti aç</string>
+    <string name="connect_hit">Connect hit</string>
+    <string name="exit_hit">Exit hit</string>
+    <string name="back_hit">Back hit</string>
+    <string name="unlock_hit">UNLOCK hit</string>
+    <string name="lock_hit">LOCK hit</string>
+    <string name="clicked_connect">You have clicked connect</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Başla</string>
+    <string name="stop">Dur</string>
+    <string name="cancel">İptal</string>
+    <string name="setting_title">Server Setting</string>
+    <string name="display_title">Kapı Kontrol</string>
+    <string name="response">response</string>
+    <string name="ipaddresssummary">Raspberry PI ip adresi</string>
+    <string name="ipaddress">ip adresi</string>
+    <string name="exampleIP_PORT"> 192.168.xxx.xxx:8080</string>
+    <string name="gelistirici">Doç. Dr. Mehmet GöKTÜRK ve Ercan UCA</string>
+    <string name="disclaimer_text">THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</string>
+    <string name="settings">Settings</string>
+    <string name="about">about</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

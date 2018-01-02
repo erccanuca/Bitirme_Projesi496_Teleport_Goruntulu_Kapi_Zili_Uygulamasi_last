@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="connect_btn">#5533FF99</color>
+    <color name="exit_btn">#556655ff</color>
+    <color name="clicked_color">#ffff00ff</color>
+</resources>

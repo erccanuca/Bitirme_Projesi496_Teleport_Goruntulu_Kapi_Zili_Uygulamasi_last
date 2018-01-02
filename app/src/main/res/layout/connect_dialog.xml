@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/connection_label"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/background_light"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/connection_label"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="22dp"
+            android:clickable="false"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/ip" />
+
+        <EditText
+            android:id="@+id/ip_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="15dp"
+            android:background="@color/connect_btn"
+            android:gravity="center"
+            android:inputType=""
+            android:labelFor="@+id/ip_edit"
+            android:text="@string/ip"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/port_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="11dp"
+            android:background="@color/connect_btn"
+            android:gravity="center"
+            android:inputType=""
+            android:labelFor="@id/port_edit"
+            android:text="@string/port"
+            android:textColor="@color/colorPrimary"
+         />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/connect_to_rpi"
+                android:layout_width="120dp"
+                android:layout_height="80sp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:hint="@string/connection"
+                android:text="@string/press_to_connect"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/exit_to_connection_label"
+                android:layout_width="120dp"
+                android:layout_height="80sp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:hint="@string/exit_connection_label"
+                android:text="@string/exit"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

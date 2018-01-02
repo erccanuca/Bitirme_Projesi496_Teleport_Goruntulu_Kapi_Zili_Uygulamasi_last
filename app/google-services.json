@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1074299628363",
+    "project_id": "socketclient-master"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074299628363:android:424735a442aa1d7a",
+        "android_client_info": {
+          "package_name": "myproject.example.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074299628363-5vonh5gsr2ijvr0d6c8pcs3237ghjbtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG4jU4ydvv9oNbXZm1iC5F370oRy5Ex0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

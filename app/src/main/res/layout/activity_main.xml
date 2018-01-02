@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/about_app"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:clickable="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="none"
+        android:labelFor="@id/about_app"
+        android:text="@string/welcome_to_rpi_app"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/explain_app"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/about_app"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:clickable="false"
+        android:ems="15"
+        android:gravity="center"
+        android:inputType="none"
+        android:labelFor="@id/explain_app"
+        android:text="@string/explain"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="180dp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@color/connect_btn"
+            android:drawableStart="@drawable/connect_png"
+            android:text="@string/connect"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/connect_png"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="180dp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@color/exit_btn"
+            android:drawableEnd="@drawable/exit_png"
+            android:text="@string/exit"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/exit_png"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
